@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Meus Alimentos";
+}
+
+
+<h1>Meus Alimentos</h1>
+<a asp-controller="MeusAlimentos" asp-action="CadastrarAlimento">Cadastrar alimento</a>
+
+<table class="table table-hover table-sm">
+  <thead class="table-dark">
+    <tr>
+      <th scope="col">Alimento</th>
+      <th scope="col">Quantidade (g)</th>
+      <th scope="col">Calorias</th>
+      <th scope="col">Proteínas</th>
+      <th scope="col">10:00am</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Arroz</td>
+      <td>100<span>g</span></td>
+      <td>6<span>g</span></td>
+    </tr>
+  </tbody>
+</table>
